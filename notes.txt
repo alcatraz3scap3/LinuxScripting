@@ -1,0 +1,4 @@
+#! Sha-bang: a "magic number" that designates the file is to be read as commands to the system
+magic number: type "man magic" into CLI and find out
+/[folder]/[folder]/[file] : the path name that follows the #! (sha-bang). This is the path to the program file to be executed
+#!/bin/sh : the defult Bourne shell in UNIX. Will defult to [#! bin/bash] on a linux machine Also allows the script to be portable to non-linux machines and confrom to POSIX sh standard. Will sacrifice some Bash-spesific features.
